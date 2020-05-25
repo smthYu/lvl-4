@@ -1,0 +1,198 @@
+body {
+    width: 100%;
+}
+
+header {
+    background-color: #2f3237;
+}
+
+
+.navbar:before {
+    display: none;
+}
+.navbar {
+    display: grid;
+    background-color: #2f3237;
+    grid-template-columns: 7fr 1fr 1fr 1fr 1fr 1fr;
+    margin-bottom: 0px;
+    padding: 0;
+    font-size: large;
+    float: right;
+    text-align: center;
+}
+.navbar:after {
+    display: none;
+}
+.nav-item a {
+    color: #fff;
+    display: block;
+    height: 100%;
+    text-decoration: none;
+}
+.nav-item a:hover {
+    color: white;
+    background-color: #63b8bd;
+}
+.nav-item a:active {
+    color: #63b8bd;
+}
+.center_text {
+    margin: auto;
+}
+.menu_text {
+    display: flex;
+    height: 100%;
+    text-align: center;
+}
+.carousel-caption {
+    text-align: left;
+    height: 100%;
+    position: absolute;
+    top: 50%;
+    transform: translate(0, -25%);
+}
+.carousel-control {
+    opacity: 1;
+    background-color: #63b8bd;
+    max-width: 70px;
+    max-height: 70px;
+    border-radius: 100%;
+    top: 50%;
+    transform: translate(0, -50%);
+}
+.left>img,
+.right>img {
+    max-width: 20px;
+    top: 50%;
+    transform: translate(0, 100%);
+}
+.carousel-control:hover {
+    background-color: #fbfbfb;
+}
+.carousel-control.right {
+    background-image: none;
+}
+.carousel-control.left {
+    background-image: none;
+}
+.carousel-caption {
+    float: inline-start;
+}
+.carousel-caption h2 {
+    color: #63b8bd;
+    font-size: 3.5em;
+}
+.carousel-caption h3 {
+    color: #717171;
+    font-size: 3.5em;
+}
+.container {
+    width: 80%;
+    padding: 0;
+    margin: auto;
+    font-family: Verdana, sans-serif;
+	text-align: center;
+	background-color: grey;
+}
+.sticker {
+    font-size: small;
+    display: inline-block;
+    background-color: transparent;
+    margin: 3%;
+    padding: 1%;
+    opacity: 0.8;
+    width: 20%;
+    height: auto;
+}
+.sticker img {
+    width: 100%;
+}
+.sticker h3{
+	color: white;
+}
+.left-text{
+	text-align: left;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.content {
+    background-color: #63b8bd;
+    width: 100%;
+    text-align: center;
+}
+
+.content h3{
+    color: #fff;
+    text-align: center;
+}
+
+.content h4 {
+    color: #63b8bd;
+}
+.content a {
+    width: 45%;
+    height: 15%;
+    float: left;
+    padding: 7%;
+    background-color: #63b8bd;
+    color: #fff;
+}
+
+.content::before {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    /* Положение треугольника */
+    /* Создание треугольника */
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 0 0 10em 100em;
+    border-color: transparent #717171 #717171 transparent;
+}
+
+.info_about {
+    font-size: small;
+    display: inline-block;
+    margin: 3%;
+    padding: 1%;
+    width: 20%;
+    height: auto;
+}
+
+.info_about p {
+    color: #38474b;
+    padding-top: 5%;
+}
+
+.welcome h3 {
+    color: #000;
+    text-align: center;
+}
+
+.welcome h5 {
+    color: #63b8bd;
+    text-align: center;
+}
+
+.info {
+    float: right;
+}
+
+.info_about a {
+    width: 10%;
+    height: 10%;
+    background-color: #2f3237;
+    color: #fff;
+}
