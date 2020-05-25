@@ -10,7 +10,8 @@ header {
     width: 80%;
     padding: 0;
     margin: auto;
-    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-family: Verdana, 'Times New Roman', Times, serif;
+    text-align: center;
 }
 
 .navbar:before {
@@ -129,7 +130,7 @@ p {
     font-size: small;
     display: inline-block;
     background-color: #38474b;
-    margin: 3%;
+    margin: 2%;
     padding: 1%;
     opacity: 0.8;
     width: 20%;
@@ -162,7 +163,7 @@ p {
 .info_about {
     font-size: small;
     display: inline-block;
-    margin: 3%;
+    margin: 2%;
     padding: 1%;
     width: 20%;
     height: auto;
@@ -187,13 +188,52 @@ p {
     text-align: center;
 }
 
-.info {
-    float: right;
-}
-
-.info_about a {
+.welcome a {
     width: 10%;
     height: 10%;
     background-color: #2f3237;
+    color: #fff;
+}
+
+.button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+button {
+    background-color: #2f3237;
+    color: #fff;
+    padding: 1% 2%;
+    margin-bottom: 5%;
+}
+
+.number {
+    font-size: small;
+    display: inline-block;
+    margin: 2%;
+    padding: 1%;
+    width: 20%;
+    height: auto;
+}
+
+.financials_solutions {
+    background-color: #63b8bd;
+}
+
+.number h2,
+h3 {
+    display: inline;
+}
+
+.number h2 {
+    background-color: #fff;
+    color: black;
+    font-size: xx-large;
+    border-radius: 100%;
+    text-align: center;
+}
+
+.number h3 {
     color: #fff;
 }
