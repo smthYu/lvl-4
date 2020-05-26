@@ -10,8 +10,13 @@ header {
     width: 80%;
     padding: 0;
     margin: auto;
-    font-family: Verdana, 'Times New Roman', Times, serif;
+    font-family: Verdana, 'Times New Roman', Times, sans-serif;
     text-align: center;
+}
+
+h2,
+h3 {
+    color: #fff;
 }
 
 .navbar:before {
@@ -113,13 +118,11 @@ header {
 .content {
     background-color: #63b8bd;
     width: 100%;
-    text-align: center;
+    color: #fff;
 }
 
-.content h3,
-p {
+.content h3 {
     color: #fff;
-    text-align: center;
 }
 
 .content h4 {
@@ -129,7 +132,7 @@ p {
 .sticker {
     font-size: small;
     display: inline-block;
-    background-color: #38474b;
+    background-color: transparent;
     margin: 2%;
     padding: 1%;
     opacity: 0.8;
@@ -137,16 +140,30 @@ p {
     height: auto;
 }
 
-.content a {
+.sticker p {
+    padding-top: 5%;
+    color: #fff;
+}
+
+.sticker img {
+    opacity: 1;
+    width: 100%;
+}
+
+.gray_bg {
+    background-color: #38474b;
+}
+
+.gray_bg button {
     width: 45%;
-    height: 15%;
+    height: 10%;
     float: left;
-    padding: 7%;
+    padding: 2%;
     background-color: #63b8bd;
     color: #fff;
 }
 
-.content::before {
+.triangle::before {
     content: '';
     position: absolute;
     bottom: 0;
@@ -160,46 +177,33 @@ p {
     border-color: transparent transparent #717171 transparent;
 }
 
-.info_about {
-    font-size: small;
-    display: inline-block;
-    margin: 2%;
-    padding: 1%;
-    width: 20%;
-    height: auto;
-}
-
 .info_about p {
     color: #38474b;
-    padding-top: 5%;
 }
 
-.info_about img {
-    width: 100%;
-}
-
-.welcome h3 {
+.info h3 {
     color: #000;
     text-align: center;
 }
 
-.welcome h5 {
+.info h5 {
     color: #63b8bd;
     text-align: center;
 }
 
-.welcome a {
+.info a {
     width: 10%;
     height: 10%;
     background-color: #2f3237;
     color: #fff;
 }
 
-.button {
+
+/*.button {
     display: flex;
     align-items: center;
     justify-content: center;
-}
+}*/
 
 button {
     background-color: #2f3237;
@@ -208,25 +212,7 @@ button {
     margin-bottom: 5%;
 }
 
-.number {
-    font-size: small;
-    display: inline-block;
-    margin: 2%;
-    padding: 1%;
-    width: 20%;
-    height: auto;
-}
-
-.financials_solutions {
-    background-color: #63b8bd;
-}
-
-.number h2,
-h3 {
-    display: inline;
-}
-
-.number h2 {
+span {
     background-color: #fff;
     color: black;
     font-size: xx-large;
@@ -234,6 +220,11 @@ h3 {
     text-align: center;
 }
 
-.number h3 {
+#slider h4 {
+    color: #63b8bd;
+}
+
+#slider h3 {
     color: #fff;
+    padding: 2%;
 }
