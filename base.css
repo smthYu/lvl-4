@@ -234,38 +234,56 @@ span {
     font-size: xx-small;
 }
 
+.contact {
+    font-size: small;
+    display: inline-block;
+    background-color: transparent;
+    width: 20%;
+    margin: 4% 1%;
+    position: relative;
+}
+
+.contact p {
+    position: absolute;
+    top: 50%;
+    transform: translate(0, -50%);
+    margin-left: 35%;
+}
+
 .contacts img {
     max-width: 92px;
     height: auto;
+    float: left;
 }
 
 footer {
-    background-color: #3c3c3b;
-}
-
-footer a {
-    background-color: #2a2731;
-    border-radius: 100%;
-}
-
-footer a:hover {
-    background-color: #63b8bd;
+    background-color: #26292e;
+    color: #717171;
 }
 
 footer img {
     display: inline-block;
     width: 100%;
-    padding: 0;
+    padding: 5%;
     margin: 0;
 }
 
-footer div {
+.gitex {
     float: left;
     margin: 5px;
     padding-top: 1%;
 }
 
+.gitex a {
+    color: #63b8bd;
+}
+
 #large-hit {
     float: right;
     width: 5%;
+    border-radius: 100%;
+}
+
+#large-hit:hover {
+    background-color: #63b8bd;
 }
