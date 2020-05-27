@@ -245,6 +245,7 @@ footer {
 
 footer a {
     background-color: #2a2731;
+    border-radius: 100%;
 }
 
 footer a:hover {
@@ -259,10 +260,10 @@ footer img {
 }
 
 footer div {
-                float: left;
-                margin: 5px;
-                padding-top: 1%;
-            }
+    float: left;
+    margin: 5px;
+    padding-top: 1%;
+}
 
 #large-hit {
     float: right;
