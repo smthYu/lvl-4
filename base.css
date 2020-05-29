@@ -12,6 +12,7 @@ header {
     margin: auto;
     font-family: Verdana, 'Times New Roman', Times, sans-serif;
     text-align: center;
+    border-color: #fff;
 }
 
 h2,
@@ -117,8 +118,10 @@ h3 {
 
 .content {
     background-color: #63b8bd;
+    border-color: #fff;
     width: 100%;
     color: #fff;
+    position: relative;
 }
 
 .content h3 {
@@ -172,8 +175,8 @@ h3 {
     width: 0;
     height: 0;
     border-style: solid;
-    border-width: 0 0 10em 100em;
-    border-color: transparent transparent #717171 transparent;
+    border-width: 0 0 10em 120.6em;
+    border-color: transparent transparent #fff transparent;
 }
 
 .info_about p {
@@ -211,12 +214,23 @@ button {
     margin-bottom: 5%;
 }
 
-span {
+.number {
     background-color: #fff;
-    color: black;
+    display: block;
+    float: left;
+    width: 3em;
+    height: 3em;
     font-size: xx-large;
     border-radius: 100%;
-    text-align: center;
+    position: relative;
+}
+
+.number p {
+    position: absolute;
+    top: 50%;
+    transform: translate(0, -50%);
+    color: black;
+    margin: auto;
 }
 
 #slider h4 {
@@ -226,6 +240,11 @@ span {
 #slider h3 {
     color: #fff;
     padding: 2%;
+}
+
+.success img {
+    background-color: black;
+    opacity: 0.5;
 }
 
 .contacts {
@@ -259,6 +278,7 @@ span {
 footer {
     background-color: #26292e;
     color: #717171;
+    position: relative;
 }
 
 footer img {
@@ -270,8 +290,9 @@ footer img {
 
 .gitex {
     float: left;
-    margin: 5px;
-    padding-top: 1%;
+    position: absolute;
+    top: 50%;
+    transform: translate(0, -50%);
 }
 
 .gitex a {
