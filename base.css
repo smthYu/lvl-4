@@ -179,6 +179,38 @@ h3 {
     border-color: transparent transparent #fff transparent;
 }
 
+.triangle_w::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    /* Положение треугольника */
+    /* Создание треугольника */
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 0 0 10em 120.6em;
+    border-color: transparent transparent #63b8bd transparent;
+}
+
+.triangle_fs::before {
+    content: '';
+    position: absolute;
+    bottom: -10em;
+    right: 0;
+    /* Положение треугольника */
+    /* Создание треугольника */
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 10em 120.6em 0 0;
+    border-color: #63b8bd transparent transparent transparent;
+}
+
+.info {
+    position: relative;
+}
+
 .info_about p {
     color: #38474b;
 }
@@ -216,21 +248,13 @@ button {
 
 .number {
     background-color: #fff;
+    color: black;
     display: block;
     float: left;
-    width: 3em;
-    height: 3em;
-    font-size: xx-large;
     border-radius: 100%;
-    position: relative;
-}
-
-.number p {
-    position: absolute;
-    top: 50%;
-    transform: translate(0, -50%);
-    color: black;
-    margin: auto;
+    font-size: 50px;
+    width: 1.5em;
+    height: 1.5em;
 }
 
 #slider h4 {
@@ -242,10 +266,11 @@ button {
     padding: 2%;
 }
 
-.success img {
+
+/*.success img {
     background-color: black;
     opacity: 0.5;
-}
+}*/
 
 .contacts {
     background-color: #2f3237;
