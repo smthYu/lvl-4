@@ -1,302 +1,349 @@
-body {
-    width: 100%;
-}
-
-header {
-    background-color: #2f3237;
-}
-
-.container {
-    width: 100%;
-    padding: 0 10% 0 10%;
-    margin: auto;
-    font-family: Verdana, 'Times New Roman', Times, sans-serif;
-    text-align: center;
-    border-color: #fff;
-}
-
-h2,
-h3 {
-    color: #fff;
-}
-
-.navbar:before {
-    display: none;
-}
-
-.navbar:after {
-    display: none;
-}
-
-.navbar {
-    display: grid;
-    background-color: #2f3237;
-    grid-template-columns: 7fr 1fr 1fr 1fr 1fr 1fr;
-    margin-bottom: 0px;
-    padding: 0;
-    font-size: large;
-    float: right;
-    text-align: center;
-}
-
-.nav-item a {
-    color: #fff;
-    display: block;
-    height: 100%;
-    text-decoration: none;
-}
-
-.nav-item a:hover {
-    color: white;
-    background-color: #63b8bd;
-}
-
-.nav-item a:active {
-    color: #63b8bd;
-}
-
-.center_text {
-    margin: auto;
-}
-
-.menu_text {
-    display: flex;
-    height: 100%;
-    text-align: center;
-}
-
-.carousel-caption {
-    text-align: left;
-    height: 100%;
-    position: absolute;
-    top: 50%;
-    transform: translate(0, -25%);
-}
-
-.carousel-control {
-    opacity: 1;
-    background-color: #63b8bd;
-    max-width: 70px;
-    max-height: 70px;
-    border-radius: 100%;
-    top: 50%;
-    transform: translate(0, -50%);
-}
-
-.left>img,
-.right>img {
-    max-width: 20px;
-    top: 50%;
-    transform: translate(0, 100%);
-}
-
-.carousel-control:hover {
-    background-color: #fbfbfb;
-}
-
-.carousel-control.right {
-    background-image: none;
-}
-
-.carousel-control.left {
-    background-image: none;
-}
-
-.carousel-caption {
-    float: inline-start;
-}
-
-.carousel-caption h2 {
-    color: #63b8bd;
-    font-size: 3.5em;
-}
-
-.carousel-caption h3 {
-    color: #717171;
-    font-size: 3.5em;
-}
-
-.content {
-    border-color: #fff;
-    width: 100%;
-    color: #fff;
-    position: relative;
-}
-
-.content:after {
-    background-color: #63b8bd;
-    bottom: 0;
-    content: '';
-    display: block;
-    height: 140%;
-    left: 0;
-    position: absolute;
-    right: 0;
-    transform: skewY(-4deg);
-    transform-origin: 100%;
-    z-index: -1;
-}
-
-.content h3 {
-    color: #fff;
-}
-
-.content h4 {
-    color: #63b8bd;
-}
-
-.sticker {
-    font-size: small;
-    display: inline-block;
-    background-color: transparent;
-    margin: 2%;
-    padding: 1%;
-    opacity: 0.8;
-    width: 20%;
-    height: auto;
-}
-
-.sticker p {
-    padding-top: 5%;
-    color: #fff;
-}
-
-.sticker img {
-    width: 100%;
-}
-
-.gray_bg {
-    background-color: #38474b;
-}
-
-.white_bg {
-    background-color: #fff;
-}
-
-.gray_bg button {
-    width: 45%;
-    height: 10%;
-    float: left;
-    padding: 2%;
-    background-color: #63b8bd;
-    color: #fff;
-}
-
-.info {
-    position: relative;
-    padding: 4% 0;
-}
-
-.info_about p {
-    color: #38474b;
-}
-
-.info h3 {
-    color: #000;
-    text-align: center;
-}
-
-.info h5 {
-    color: #63b8bd;
-    text-align: center;
-}
-
-.info a {
-    width: 10%;
-    height: 10%;
-    background-color: #2f3237;
-    color: #fff;
-}
-
-button {
-    background-color: #2f3237;
-    color: #fff;
-    padding: 1% 2%;
-    margin-bottom: 5%;
-}
-
-.number {
-    background-color: #fff;
-    color: black;
-    display: block;
-    float: left;
-    border-radius: 100%;
-    font-size: 40px;
-    width: 1.5em;
-    height: 1.5em;
-}
-
-#slider {
-    z-index: -2;
-}
-
-#slider h4 {
-    color: #63b8bd;
-}
-
-#slider h3 {
-    color: #fff;
-    padding: 2%;
-}
-
-.contacts {
-    background-color: #2f3237;
-    color: #63b8bd;
-    font-size: xx-small;
-}
-
-.contact {
-    font-size: small;
-    display: inline-block;
-    background-color: transparent;
-    width: 20%;
-    margin: 4% 1%;
-    position: relative;
-}
-
-.contact p {
-    position: absolute;
-    top: 50%;
-    transform: translate(0, -50%);
-    margin-left: 35%;
-}
-
-.contacts img {
-    max-width: 92px;
-    height: auto;
-    float: left;
-}
-
-footer {
-    background-color: #26292e;
-    color: #717171;
-    position: relative;
-}
-
-footer img {
-    display: inline-block;
-    width: 100%;
-    padding: 5%;
-    margin: 0;
-}
-
-.gitex {
-    float: left;
-    position: absolute;
-    top: 50%;
-    transform: translate(0, -50%);
-}
-
-.gitex a {
-    color: #63b8bd;
-}
-
-#large-hit {
-    float: right;
-    width: 5%;
-    border-radius: 100%;
-}
-
-#large-hit:hover {
-    background-color: #63b8bd;
-}
+                                    body {
+                                        width: 100%;
+                                    }
+                                    
+                                    header {
+                                        background-color: #2f3237;
+                                    }
+                                    
+                                    .container {
+                                        width: 100%;
+                                        padding: 0 10% 0 10%;
+                                        margin: auto;
+                                        font-family: Verdana, 'Times New Roman', Times, sans-serif;
+                                        font-size: 1em;
+                                        text-align: center;
+                                        border-color: #fff;
+                                    }
+                                    
+                                    h2,
+                                    h3 {
+                                        color: #fff;
+                                    }
+                                    
+                                    .navbar:before {
+                                        display: none;
+                                    }
+                                    
+                                    .navbar:after {
+                                        display: none;
+                                    }
+                                    
+                                    .navbar {
+                                        display: grid;
+                                        background-color: #2f3237;
+                                        grid-template-columns: 7fr 1fr 1fr 1fr 1fr 1fr;
+                                        margin-bottom: 0px;
+                                        padding: 0;
+                                        font-size: large;
+                                        float: right;
+                                        text-align: center;
+                                    }
+                                    
+                                    .nav-item a {
+                                        color: #fff;
+                                        display: block;
+                                        height: 100%;
+                                        text-decoration: none;
+                                    }
+                                    
+                                    .nav-item a:hover {
+                                        color: white;
+                                        background-color: #63b8bd;
+                                    }
+                                    
+                                    .nav-item a:active {
+                                        color: #63b8bd;
+                                    }
+                                    
+                                    .center_text {
+                                        margin: auto;
+                                    }
+                                    
+                                    .menu_text {
+                                        display: flex;
+                                        height: 100%;
+                                        text-align: center;
+                                    }
+                                    
+                                    .carousel-caption {
+                                        text-align: left;
+                                        height: 100%;
+                                        position: absolute;
+                                        top: 50%;
+                                        transform: translate(0, -25%);
+                                    }
+                                    
+                                    .carousel-control {
+                                        opacity: 1;
+                                        background-color: #63b8bd;
+                                        max-width: 70px;
+                                        max-height: 70px;
+                                        border-radius: 100%;
+                                        top: 50%;
+                                        transform: translate(0, -50%);
+                                    }
+                                    
+                                    .left>img,
+                                    .right>img {
+                                        max-width: 20px;
+                                        top: 50%;
+                                        transform: translate(0, 100%);
+                                    }
+                                    
+                                    .carousel-control:hover {
+                                        background-color: #fbfbfb;
+                                    }
+                                    
+                                    .carousel-control.right {
+                                        background-image: none;
+                                    }
+                                    
+                                    .carousel-control.left {
+                                        background-image: none;
+                                    }
+                                    
+                                    .carousel-caption {
+                                        float: inline-start;
+                                    }
+                                    
+                                    .carousel-caption h2 {
+                                        color: #63b8bd;
+                                        font-size: 3.5em;
+                                    }
+                                    
+                                    .carousel-caption h3 {
+                                        color: #717171;
+                                        font-size: 3.5em;
+                                    }
+                                    
+                                    .content {
+                                        border-color: #fff;
+                                        width: 100%;
+                                        color: #fff;
+                                        position: relative;
+                                    }
+                                    
+                                    .content:after {
+                                        background-color: #63b8bd;
+                                        bottom: 0;
+                                        content: '';
+                                        display: block;
+                                        height: 140%;
+                                        left: 0;
+                                        position: absolute;
+                                        right: 0;
+                                        transform: skewY(-4deg);
+                                        transform-origin: 100%;
+                                        z-index: -1;
+                                    }
+                                    
+                                    .content h3 {
+                                        color: #fff;
+                                    }
+                                    
+                                    .content h4 {
+                                        color: #63b8bd;
+                                    }
+                                    
+                                    .sticker {
+                                        font-size: small;
+                                        display: inline-block;
+                                        background-color: transparent;
+                                        margin: 2%;
+                                        padding: 1%;
+                                        opacity: 0.8;
+                                        width: 20%;
+                                        height: auto;
+                                    }
+                                    
+                                    .sticker p {
+                                        padding-top: 5%;
+                                        color: #fff;
+                                    }
+                                    
+                                    .sticker img {
+                                        width: 100%;
+                                    }
+                                    
+                                    .gray_bg {
+                                        background-color: #38474b;
+                                    }
+                                    
+                                    .white_bg {
+                                        background-color: #fff;
+                                    }
+                                    
+                                    .gray_bg button {
+                                        width: 45%;
+                                        height: 10%;
+                                        float: left;
+                                        padding: 2%;
+                                        background-color: #63b8bd;
+                                        color: #fff;
+                                    }
+                                    
+                                    .info {
+                                        position: relative;
+                                        padding: 4% 0;
+                                    }
+                                    
+                                    .info_about p {
+                                        color: #38474b;
+                                    }
+                                    
+                                    .info h3 {
+                                        color: #000;
+                                        text-align: center;
+                                    }
+                                    
+                                    .info h5 {
+                                        color: #63b8bd;
+                                        text-align: center;
+                                    }
+                                    
+                                    .info a {
+                                        width: 10%;
+                                        height: 10%;
+                                        background-color: #2f3237;
+                                        color: #fff;
+                                    }
+                                    
+                                    button {
+                                        background-color: #2f3237;
+                                        color: #fff;
+                                        padding: 1% 2%;
+                                        margin-bottom: 5%;
+                                    }
+                                    
+                                    td h3 {
+                                        font-size: 1.7em;
+                                    }
+                                    
+                                    .number {
+                                        background-color: #fff;
+                                        color: black;
+                                        display: block;
+                                        float: left;
+                                        border-radius: 100%;
+                                        font-size: 40px;
+                                        width: 1.5em;
+                                        height: 1.5em;
+                                    }
+                                    
+                                    #slider {
+                                        z-index: -2;
+                                    }
+                                    
+                                    #slider h4 {
+                                        color: #63b8bd;
+                                    }
+                                    
+                                    #slider h3 {
+                                        color: #fff;
+                                        padding: 2%;
+                                    }
+                                    
+                                    .contacts {
+                                        background-color: #2f3237;
+                                        color: #63b8bd;
+                                        font-size: xx-small;
+                                    }
+                                    
+                                    .contact {
+                                        font-size: small;
+                                        display: inline-block;
+                                        background-color: transparent;
+                                        width: 20%;
+                                        margin: 4% 1%;
+                                        position: relative;
+                                    }
+                                    
+                                    .contact p {
+                                        position: absolute;
+                                        top: 50%;
+                                        transform: translate(0, -50%);
+                                        margin-left: 35%;
+                                        text-align: left;
+                                    }
+                                    
+                                    .contacts img {
+                                        max-width: 92px;
+                                        height: auto;
+                                        float: left;
+                                        padding-right: 3%;
+                                    }
+                                    
+                                    footer {
+                                        background-color: #26292e;
+                                        color: #717171;
+                                        position: relative;
+                                    }
+                                    
+                                    footer img {
+                                        display: inline-block;
+                                        width: 100%;
+                                        padding: 5%;
+                                        margin: 0;
+                                    }
+                                    
+                                    .gitex {
+                                        float: left;
+                                        position: absolute;
+                                        top: 50%;
+                                        transform: translate(0, -50%);
+                                    }
+                                    
+                                    .gitex a {
+                                        color: #63b8bd;
+                                    }
+                                    
+                                    #large-hit {
+                                        float: right;
+                                        width: 5%;
+                                        border-radius: 100%;
+                                    }
+                                    
+                                    #large-hit:hover {
+                                        background-color: #63b8bd;
+                                    }
+                                    
+                                    @media (min-width: 1001px) and (max-width: 1300px) {
+                                        .container {
+                                            padding: 0 1%;
+                                        }
+                                        td h3 {
+                                            font-size: 1.25em;
+                                        }
+                                        .contacts img {
+                                            padding-right: 10%;
+                                        }
+                                    }
+                                    
+                                    @media (min-width: 500px) and (max-width: 1000px) {
+                                        .container {
+                                            padding: 0 1% 0 1%;
+                                        }
+                                        .navbar {
+                                            font-size: inherit;
+                                        }
+                                        .carousel-caption h3,
+                                        h2 {
+                                            font-size: 2.5em;
+                                            margin: 0;
+                                        }
+                                        .sticker {
+                                            width: 25%;
+                                        }
+                                        td h3 {
+                                            font-size: 1.2em;
+                                        }
+                                        .contact img {
+                                            padding-right: 25%;
+                                        }
+                                        h1 {
+                                            margin: 0;
+                                        }
+                                    }
+                                    
+                                    @media screen and (max-width: 550px) {}
