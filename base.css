@@ -77,8 +77,8 @@
                                     .carousel-control {
                                         opacity: 1;
                                         background-color: #63b8bd;
-                                        max-width: 70px;
-                                        max-height: 70px;
+                                        width: 5%;
+                                        height: 13%;
                                         border-radius: 100%;
                                         top: 50%;
                                         transform: translate(0, -50%);
@@ -86,7 +86,7 @@
                                     
                                     .left>img,
                                     .right>img {
-                                        max-width: 20px;
+                                        width: 20%;
                                         top: 50%;
                                         transform: translate(0, 100%);
                                     }
@@ -312,6 +312,12 @@
                                         .container {
                                             padding: 0 1%;
                                         }
+                                        .left>img,
+                                        .right>img {
+                                            width: 20%;
+                                            top: 50%;
+                                            transform: translate(0, 100%);
+                                        }
                                         td h3 {
                                             font-size: 1.25em;
                                         }
@@ -320,7 +326,7 @@
                                         }
                                     }
                                     
-                                    @media (min-width: 500px) and (max-width: 1000px) {
+                                    @media (min-width: 501px) and (max-width: 1000px) {
                                         .container {
                                             padding: 0 1% 0 1%;
                                         }
@@ -331,6 +337,12 @@
                                         h2 {
                                             font-size: 2.5em;
                                             margin: 0;
+                                        }
+                                        .left>img,
+                                        .right>img {
+                                            width: 20%;
+                                            top: 50%;
+                                            transform: translate(0, 50%);
                                         }
                                         .sticker {
                                             width: 25%;
@@ -346,4 +358,64 @@
                                         }
                                     }
                                     
-                                    @media screen and (max-width: 550px) {}
+                                    @media screen and (max-width: 500px) {
+                                        .container {
+                                            width: 100%;
+                                            padding: 5%;
+                                        }
+                                        .navbar {
+                                            display: block;
+                                        }
+                                        .navbar img {
+                                            width: 100%;
+                                        }
+                                        .nav-item a {
+                                            width: 100%;
+                                            height: auto;
+                                            padding-top: 7%;
+                                            padding-bottom: 7%;
+                                        }
+                                        .left>img,
+                                        .right>img {
+                                            width: 30%;
+                                            top: 50%;
+                                            transform: translate(0, -110%);
+                                        }
+                                        .carousel-caption {
+                                            padding: 0;
+                                        }
+                                        .carousel-caption h3 {
+                                            font-size: 1em;
+                                        }
+                                        .carousel-caption h2 {
+                                            font-size: 1.5em;
+                                            margin: 2%;
+                                        }
+                                        .sticker {
+                                            display: block;
+                                            width: 100%;
+                                            padding: 7% 3% 15% 3%;
+                                            margin: 0;
+                                            opacity: 1;
+                                        }
+                                        .gray_bg button {
+                                            width: 45%;
+                                            height: 10%;
+                                            padding: 3%;
+                                            text-align: center;
+                                        }
+                                        .contact {
+                                            font-size: small;
+                                            display: block;
+                                            padding: 10% 1%;
+                                            width: 100%;
+                                            position: relative;
+                                        }
+                                        .contact img {
+                                            position: absolute;
+                                            transform: translate(-200%, -50%);
+                                        }
+                                        .contact p {
+                                            margin-left: 25%;
+                                        }
+                                    }
