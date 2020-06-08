@@ -244,6 +244,20 @@
                                         padding: 2%;
                                     }
                                     
+                                    #slider .carousel-control.left.bottom {
+                                        top: unset;
+                                        bottom: 0;
+                                        left: unset;
+                                        border-radius: 0;
+                                        background-color: transparent;
+                                    }
+                                    
+                                    #slider .carousel-control.right.bottom {
+                                        top: unset;
+                                        border-radius: 0;
+                                        background-color: transparent;
+                                    }
+                                    
                                     .contacts {
                                         background-color: #2f3237;
                                         color: #63b8bd;
