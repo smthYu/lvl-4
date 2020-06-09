@@ -84,12 +84,16 @@
                                         transform: translate(0, -50%);
                                     }
                                     
-                                    .left>img,
+                                    .carousel-control img {
+                                        width: 100%;
+                                        padding: 30%;
+                                    }
+                                    /* .left>img,
                                     .right>img {
                                         width: 20%;
                                         top: 50%;
                                         transform: translate(0, 100%);
-                                    }
+                                    }*/
                                     
                                     .carousel-control:hover {
                                         background-color: #fbfbfb;
@@ -256,6 +260,7 @@
                                         top: unset;
                                         border-radius: 0;
                                         background-color: transparent;
+                                        z-index: 2;
                                     }
                                     
                                     .contacts {
@@ -326,12 +331,6 @@
                                         .container {
                                             padding: 0 1%;
                                         }
-                                        .left>img,
-                                        .right>img {
-                                            width: 20%;
-                                            top: 50%;
-                                            transform: translate(0, 100%);
-                                        }
                                         td h3 {
                                             font-size: 1.25em;
                                         }
@@ -351,12 +350,6 @@
                                         h2 {
                                             font-size: 2.5em;
                                             margin: 0;
-                                        }
-                                        .left>img,
-                                        .right>img {
-                                            width: 20%;
-                                            top: 50%;
-                                            transform: translate(0, 50%);
                                         }
                                         .sticker {
                                             width: 25%;
@@ -391,9 +384,8 @@
                                         }
                                         .left>img,
                                         .right>img {
-                                            width: 30%;
                                             top: 50%;
-                                            transform: translate(0, -110%);
+                                            transform: translate(0, -50%);
                                         }
                                         .carousel-caption {
                                             padding: 0;
