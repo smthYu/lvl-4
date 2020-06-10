@@ -235,8 +235,12 @@
                                         height: 1.5em;
                                     }
                                     
-                                    #slider {
+                                    #slider .carusel-inner {
                                         z-index: -2;
+                                    }
+                                    
+                                    #slider img {
+                                        width: 100%;
                                     }
                                     
                                     #slider h4 {
@@ -248,19 +252,9 @@
                                         padding: 2%;
                                     }
                                     
-                                    #slider .carousel-control.left.bottom {
-                                        top: unset;
-                                        bottom: 0;
-                                        left: unset;
-                                        border-radius: 0;
-                                        background-color: transparent;
-                                    }
-                                    
-                                    #slider .carousel-control.right.bottom {
-                                        top: unset;
-                                        border-radius: 0;
-                                        background-color: transparent;
-                                        z-index: 2;
+                                    .map {
+                                        width: 100%;
+                                        padding: 0 1px 0 1px;
                                     }
                                     
                                     .contacts {
