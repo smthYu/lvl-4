@@ -32,12 +32,17 @@
                                     .navbar {
                                         display: grid;
                                         background-color: #2f3237;
-                                        grid-template-columns: 7fr 1fr 1fr 1fr 1fr 1fr;
+                                        grid-template-columns: 7fr 5fr;
                                         margin-bottom: 0px;
                                         padding: 0;
                                         font-size: large;
                                         float: right;
                                         text-align: center;
+                                    }
+                                    
+                                    .nav-items {
+                                        display: grid;
+                                        grid-template-columns: repeat(5, minmax(72px, 1fr));
                                     }
                                     
                                     .nav-item a {
@@ -227,13 +232,6 @@
                                         font-size: 40px;
                                         width: 1.5em;
                                         height: 1.5em;
-                                        position: relative;
-                                    }
-                                    
-                                    .number span {
-                                        position: absolute;
-                                        top: 50%;
-                                        transform: translate(0, -50%);
                                     }
                                     
                                     #slider .carousel-inner {
@@ -246,11 +244,17 @@
                                     
                                     #slider h4 {
                                         color: #63b8bd;
+                                        font-size: x-large;
                                     }
                                     
                                     #slider h3 {
                                         color: #fff;
                                         padding: 2%;
+                                    }
+                                    
+                                    #slider p {
+                                        width: 50%;
+                                        font-size: medium;
                                     }
                                     
                                     .map {
@@ -322,9 +326,12 @@
                                         background-color: #63b8bd;
                                     }
                                     
-                                    @media (min-width: 901px) and (max-width: 1000px) {
+                                    @media (min-width: 901px) and (max-width: 1100px) {
                                         .container {
                                             padding: 0 1%;
+                                        }
+                                        header {
+                                            padding-right: 2%;
                                         }
                                         td h3 {
                                             font-size: 3.5em;
@@ -359,16 +366,10 @@
                                             margin: 0;
                                         }
                                     }
-                                    /* @media (min-width: 601px) and (max-width: 760px) {
+                                    
+                                    @media (min-width: 601px) and (max-width: 760px) {
                                         .navbar {
-                                            display: grid;
-                                            background-color: #2f3237;
-                                            grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
-                                            grid-template-rows: 1fr 1fr;
-                                            grid-template-areas: "logo logo logo logo logo" "nav1 nav2 nav3 nav4 nav5";
-                                            margin-bottom: 0px;
-                                            padding: 0;
-                                            font-size: 20px;
+                                            display: block;
                                             float: none;
                                         }
                                         .container {
@@ -380,20 +381,55 @@
                                             height: auto;
                                             padding-top: 30%;
                                         }
+                                        .carousel-caption {
+                                            text-align: left;
+                                            height: 100%;
+                                            position: absolute;
+                                            top: 45%;
+                                            transform: translate(-10%, -35%);
+                                        }
                                         .carousel-caption h2,
                                         h3 {
-                                            font-size: 2em;
+                                            font-size: 1.5em;
                                         }
                                         .gray_bg h3,
                                         h4 {
                                             font-size: 1.3em;
                                         }
-                                        .number span {
+                                        .sticker {
+                                            font-size: small;
+                                            display: inline-block;
+                                            margin: 2%;
+                                            padding: 1%;
+                                            opacity: 1;
+                                            width: 45%;
+                                            height: auto;
+                                        }
+                                        .contact {
+                                            width: 30%;
+                                        }
+                                        .contact p {
                                             position: absolute;
                                             top: 50%;
-                                            transform: translate(-50%, -50%);
+                                            transform: translate(0, -50%);
+                                            text-align: left;
                                         }
-                                    }*/
+                                        .contacts img {
+                                            max-width: 60px;
+                                            height: auto;
+                                            float: left;
+                                        }
+                                        #slider h3 {
+                                            font-size: 2em;
+                                        }
+                                        #slider h4 {
+                                            font-size: 1em;
+                                        }
+                                        #slider p {
+                                            width: 80%;
+                                            font-size: 11px;
+                                        }
+                                    }
                                     
                                     @media screen and (max-width: 600px) {
                                         .container {
