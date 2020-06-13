@@ -76,7 +76,7 @@
                                             height: 100%;
                                             position: absolute;
                                             top: 45%;
-                                            transform: translate(0, -25%);
+                                            transform: translate(-10%, -25%);
                                         }
                                         
                                         .carousel-control {
