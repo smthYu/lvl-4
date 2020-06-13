@@ -333,8 +333,25 @@
                                             header {
                                                 padding-right: 2%;
                                             }
+                                            .carousel-caption {
+                                                text-align: left;
+                                                height: 100%;
+                                                position: absolute;
+                                                top: 45%;
+                                                transform: translate(-15%, -25%);
+                                            }
+                                            .sticker {
+                                                width: 23%;
+                                            }
+                                            #slider p {
+                                                width: 100%;
+                                                font-size: 15px;
+                                            }
                                             td h3 {
-                                                font-size: 3.5em;
+                                                font-size: 1.2em;
+                                            }
+                                            .contact {
+                                                width: 30%;
                                             }
                                             .contacts img {
                                                 padding-right: 10%;
