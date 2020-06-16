@@ -498,7 +498,10 @@
                                                 padding-top: 5%;
                                                 padding-bottom: 5%;
                                             }
-                                            
+                                            .carousel-control img {
+                                                top: 50%;
+                                                transform: translate(-1%, -40%);
+                                            }
                                             .carousel-caption {
                                                 padding: 0;
                                             }
@@ -545,5 +548,10 @@
                                             #slider p {
                                                 width: 100%;
                                                 font-size: 8px;
+                                            }
+                                            #large-hit {
+                                                float: right;
+                                                width: 10%;
+                                                border-radius: 100%;
                                             }
                                         }
