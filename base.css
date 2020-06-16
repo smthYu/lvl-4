@@ -498,11 +498,7 @@
                                                 padding-top: 5%;
                                                 padding-bottom: 5%;
                                             }
-                                            .left>img,
-                                            .right>img {
-                                                top: 50%;
-                                                transform: translate(2.5%, -40%);
-                                            }
+                                            
                                             .carousel-caption {
                                                 padding: 0;
                                             }
