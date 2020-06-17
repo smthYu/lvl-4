@@ -357,8 +357,16 @@
                                                 width: 30%;
                                             }
                                             .contacts img {
-                                                padding-right: 10%;
+                                                padding-right: 0;
                                             }
+                                          
+                                          .contact p {
+    position: absolute;
+    top: 50%;
+    transform: translate(0, -50%);
+    margin-left: 22%;
+    text-align: left;
+}
                                         }
                                         
                                         @media (min-width: 761px) and (max-width: 900px) {
