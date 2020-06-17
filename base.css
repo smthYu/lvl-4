@@ -326,7 +326,7 @@
                                             background-color: #63b8bd;
                                         }
                                         
-                                        @media (min-width: 901px) and (max-width: 1100px) {
+                                        @media (min-width: 901px) {
                                             .container {
                                                 padding: 0 1%;
                                             }
