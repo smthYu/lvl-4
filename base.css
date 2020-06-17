@@ -249,7 +249,7 @@
                                         
                                         #slider h3 {
                                             color: #fff;
-                                            padding-bottom: 2%;
+                                            padding: 0;
                                         }
                                         
                                         #slider p {
@@ -331,7 +331,10 @@
                                                 padding: 0 1%;
                                             }
                                             header {
-                                                padding-right: 2%;
+                                                padding: 0;
+                                            }
+                                            .navbar {
+                                                float: none;
                                             }
                                             .carousel-caption {
                                                 text-align: left;
