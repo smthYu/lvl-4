@@ -156,13 +156,15 @@ h3 {
     margin: 2%;
     padding: 1%;
     opacity: 0.8;
-    width: 20%;
-    height: auto;
+    /*vertical-align: top;
+    /*width: 20%;
+    height: auto;*/
 }
 
 .sticker p {
     padding-top: 5%;
     color: #fff;
+    vertical-align: bottom;
 }
 
 .sticker img {
@@ -222,26 +224,20 @@ button {
 .number {
     background-color: #fff;
     color: black;
-    display: block;
+    display: inline-block;
     float: left;
-    border-radius: 100%;
+    border-radius: 50%;
     font-size: 40px;
     width: 1.5em;
     height: 1.5em;
-    position: absolute;
-    top: 0;
-    transform: translate(0, -50%);
+}
+
+.name-text {
+    font-size: 20px;
 }
 
 .name {
-    position: relative;
-}
-
-.name h3 {
-    position: absolute;
-    top: 0;
-    transform: translate(10%, -50%);
-    font-size: 1.7em;
+    vertical-align: top;
 }
 
 #slider .carousel-inner {
